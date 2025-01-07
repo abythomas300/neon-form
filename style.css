@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+/*jQuery validation pluglin class> .error : references the error messages.*/
+.error{
+    color: red;
+    font-family: monospace;
+    
+}
+#root{
+    display: grid;
+    place-items: center;
+    height: 100vh
+}
+#form-wrapper{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,27,27,1) 98%, rgba(0,212,255,1) 100%);
+    border: 1px solid cyan;
+    width: 560px;
+    height: 560px; 
+    border-radius: 20px;
+    border-color: aliceblue;
+    border-width: 2px;
+}
+
+#pass-str-warning{
+    font-size: 12;
+    font-family: monospace;
+}
+
+input{
+    width: 300px;
+    height: 35px;
+    margin-left: 10px;
+    border-width: 2px;
+}
+input:focus{
+    border-color:aqua;
+    box-shadow: 0px 0 10px aqua; /*attributes: horizontal vertical blur color*/
+    outline:none
+}
+
+label{
+    margin-left:10px ;
+    color: white;
+    margin-left:15px;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+#sub-heading{
+    text-align: center;
+    color: white;
+}
+#button-wrapper{
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 15px;
+    color: black;  
+    font-size:15px ;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px aqua;
+}
